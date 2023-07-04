@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+.container-fluid {
+  background: #31324e;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  margin: 10px;
+}
+.menu {
+  margin-top: 20px;
+}
+.menu a {
+  margin-right: 150px;
+  justify-content: space-around;
+  color: #fff;
+  text-decoration: none;
+}
+.home {
+  display: flex;
+  color: #fff;
+  /* margin-top: 20px; */
+  width: auto;
+  height: 90vh;
+}
+.homepage {
+  width: 50%;
+  flex-grow: 1;
+  border-radius: 8px;
+}
+/* .homepage p {
+  margin-left: 40px;
+
+  justify-content: center;
+} */
+.homepage h1 {
+  color: #897d0c;
+}
+.homepage h2 {
+  color: #897d0c;
+}
+/* .pic {
+  width: 400px;
+  height: 400px;
+  max-height: 400px;
+  overflow: hidden;
+  background-color: #897d0c;
+}
+.pic img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  height: 100%;
+  /* margin-top: -20px;
+  margin-right: 40px; */
+
+*/ .hire {
+  width: 220px;
+  height: 74px;
+  background-color: #897d0c;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: bolder;
+  color: #fff;
+  letter-spacing: 5px;
+}
+.aboutme {
+  width: 220px;
+  height: 74px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: bolder;
+  color: #897d0c;
+}
+.buto {
+  color: #31324e;
+}
+.butto {
+  background-color: #897d0c;
+}
