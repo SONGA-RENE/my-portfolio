@@ -1,18 +1,22 @@
+import AboutMe from "./AboutMe";
 import Home from "./Home";
 import Menu from "./Menu";
 
 function App() {
   return (
-    <div className="App">
-      <div className="container-fluid">
-        <div className="container">
-          <header>
-            <Menu />
-          </header>
-          <Home />
+    <section id="intro">
+      <div className="App">
+        <div className="container-fluid">
+          <div className="container">
+            <header>
+              <Menu />
+            </header>
+            <Home />
+            <AboutMe />
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

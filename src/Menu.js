@@ -1,27 +1,33 @@
-import mylogo from "./mylogo.png";
-const Menu = () => {
-  return (
-    <div className="navbar">
-      <div>
-        <a href="app">
-          <img className="logo" src={mylogo} />
-        </a>
-      </div>
-      <nav className="menu navbar d-sm-none d-md-block">
-        <div className="container-fluid">
-          <a href="#" className="btn btn-outline-success  ">
-            ABOUT ME
-          </a>
-          <a href="#" className="btn btn-outline-success ">
-            MY PORTFOLIO
-          </a>
-          <a href="#" className="btn btn-outline-success me-2">
-            CONTACT ME
-          </a>
-        </div>
-      </nav>
-    </div>
-  );
-};
+// import mylogo from "./mylogo.png";
+// import { Navbar, Nav, Container } from "react-bootstrap";
+// import { Link } from "react-router-dom";
+// import AboutMe from "./AboutMe";
+// const Menu = () => {
+//   return (
+//     <>
+//       <Navbar>
+//         <Container>
+//           <Navbar.Brand href="#home">
+//             <img className="logo" src={mylogo} />
+//           </Navbar.Brand>
+//           <Nav className="me-auto ">
+//             <Nav.Link href="/AboutMe">
+//               ABOUT ME
+//             </Nav.Link>
+//             <Nav.Link href="/pro">
+//               MY PORTFOLIO
+//             </Nav.Link>
+//             <Nav.Link href="/pricing">CONTACT ME</Nav.Link>
+//           </Nav>
+//         </Container>
+//       </Navbar>
+//       {/* <div>
+//         <Routes>
+//           <Route path="/AboutMe" element={<AboutMe />} />
+//         </Routes>
+//       </div> */}
+//     </>
+//   );
+// };
 
-export default Menu;
+// export default Menu;

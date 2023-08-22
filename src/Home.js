@@ -26,7 +26,7 @@ const Home = () => {
           </div>;
         })} */}
         <div className="row">
-          <div className="col">
+          <div className="col-md-5 text-center text-md-start">
             <h1 className=" fw-bold display-4 text-center text-uppercase fs-1">
               I am SONGA Rene
             </h1>
@@ -46,28 +46,21 @@ const Home = () => {
               forward to the opportunity to work together and create exceptional
               digital experiences.
             </p>
-            <div className="container ">
-              <div className="col-md-12 text-center">
-                <a
-                  href="#"
-                  className=" buto btn-lg btn btn-light btn-block text-uppercase"
-                >
-                  More About me
-                </a>
-                <a
-                  href="#"
-                  className=" butto btn btn-lg text-light btn-light btn-block text-uppercase mx-3"
-                >
-                  Hire me
-                </a>
-              </div>
-            </div>
+            {/* <div className="links">
+              <a href="#" className="  btn text-uppercase">
+                More About me
+              </a>
+
+              <a href="#" className="  btn text-uppercase">
+                Hire me
+              </a>
+            </div> */}
           </div>
           <div className="col mb-3">
             <img
-              className="img-fluid rounded-circle mx-5 "
+              className="img-fluid rounded-circle mx-5 d-none d-md-block "
               src={songa}
-              alt=""
+              alt="my profile pic"
             />
           </div>
         </div>
